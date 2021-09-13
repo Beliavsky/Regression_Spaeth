@@ -4181,7 +4181,7 @@ subroutine con_l2 ( m, l, k, n, a, b, c, d, e, f, eps, x, rank1, rank2, &
   real ( kind = 4 ) r
   integer ( kind = 4 ) rank1
   integer ( kind = 4 ) rank2
-  real ( kind = 4 ) res_norm
+  real ( kind = 4 ) res_norm(1)
   real ( kind = 4 ) tau
   real ( kind = 4 ) w((n+1)*(k+2)+2*k+n)
   real ( kind = 4 ) x(n)
@@ -4251,7 +4251,7 @@ subroutine con_l2 ( m, l, k, n, a, b, c, d, e, f, eps, x, rank1, rank2, &
     end do
 
     res_norm = maxval ( maxval ( abs ( eca(k+1:k+l,1:n) ), dim = 1 ) )
-    tau = 10.0E+00 * sqrt ( eps ) * res_norm
+    tau = 10.0E+00 * sqrt ( eps ) * res_norm(1)
 !
 !  Special case for M = 0.
 !
@@ -4265,7 +4265,7 @@ subroutine con_l2 ( m, l, k, n, a, b, c, d, e, f, eps, x, rank1, rank2, &
       call hfti ( eca(k+1,1), l, n, fdb(k+1), mdb, 1, tau, rank1, &
         res_norm, ip )
 
-      if ( n <= rank1 .and. tau <= res_norm ) then
+      if ( n <= rank1 .and. tau <= res_norm(1)) then
         write ( *, '(a)' ) ' '
         write ( *, '(a)' ) 'CON_L2 - Fatal error!'
         write ( *, '(a)' ) '  No feasible point for C * X = D.'
@@ -4428,7 +4428,7 @@ subroutine con_l2 ( m, l, k, n, a, b, c, d, e, f, eps, x, rank1, rank2, &
 !
 !  Solution of the LDP problem.
 !
-    call ldp_l2 ( eca(1,mm2+1), k, rank2, fdb(1), x(mm2+1), res_norm, iflag2 )
+    call ldp_l2 ( eca(1,mm2+1), k, rank2, fdb(1), x(mm2+1), res_norm(1), iflag2 )
 
     if ( iflag2 /= 0 ) then
       write ( *, '(a)' ) ' '
