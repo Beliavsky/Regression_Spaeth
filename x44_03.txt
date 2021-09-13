@@ -1,0 +1,22 @@
+#  x44_03.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991, page 190,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    Subsystem (c) of the linear system A * X = B.
+#
+4 columns
+3 rows
+Index
+A1
+A2
+B
+ 10  3  1  2
+ 11  6  1  5
+ 12  7  1  9

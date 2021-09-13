@@ -1,0 +1,39 @@
+#  x61.txt
+#
+#  Discussion:
+#
+#    This is simply a list of the total system size,
+#    and the files that describe the subsystems.
+#
+#    The first subsystem is a matrix A and right hand side B
+#    whose residual norm || A * X - B || is to be minimized.
+#
+#    The second subsystem is a matrix C and right hand side D
+#    which represent constraints, that is, it must be the
+#    case that C * X = D exactly.
+#
+#    The third subsystem is a matrix E and right hand side H
+#    which represent positivity constraints, that is, it must be the
+#    case that E * X >= H.
+#
+#    The rank of A is 3, the rank of C is 2.  
+#
+#    For the L1 problem, the solution is
+#
+#      ( 0, 1.737705, 0, -0.2377049, -0.1885246 )
+#
+#    with an L1 error of 26.148.
+#
+#  Reference:
+#
+#    I Barrodale and F Roberts,
+#    Algorithm 552:
+#    Solution of the Constrained L1 Approximation Problem,
+#    ACM Transactions on Mathematical Software,
+#    Volume 6, Number 2, pages 231-235, 1980.
+#
+7 columns
+13 rows
+3 subsystems
+x61_01.txt
+

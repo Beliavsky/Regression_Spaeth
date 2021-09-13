@@ -1,0 +1,60 @@
+#  x19.txt
+#
+#  Reference:
+#
+#    R J Freund and P D Minton,
+#    Regression Methods,
+#    Dekker, 1979, page 40.
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    The annual expenses of various livestock markets were monitored.
+#    How do these depend on the number of animals sold?
+#
+#    There are 19 rows of data.  The data include:
+#
+#      I,  the index;
+#      A0, 1;
+#      A1, Cattle in thousands;
+#      A2, Calves in thousands;
+#      A3, Pigs in thousands;
+#      A4, lambs in thousands;
+#      B,  expenses in thousands of dollars.
+#
+#    We seek a model of the form:
+#
+#      B = A0 * X0 + A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4.
+#
+7 columns
+19 rows
+Index
+One
+Cattle (thousands)
+Calves (thousands)
+Pigs (thousands)
+Lambs (thousands)
+Expenses (1000*dollars)
+ 1  1   3.437  5.791   3.268  10.649   27.698
+ 2  1  12.801  4.558   5.751  14.375   57.634
+ 3  1   6.136  6.223  15.175   2.811   47.172
+ 4  1  11.685  3.212   0.639   0.964   49.295
+ 5  1   5.733  3.220   0.534   2.052   24.115
+ 6  1   3.021  4.348   0.839   2.356   33.612
+ 7  1   1.689  0.634   0.318   2.209    9.512
+ 8  1   2.339  1.895   0.610   0.605   14,755
+ 9  1   1.025  0.834   0.734   2.825   10.570
+10  1   2.936  1.419   0.331   0.231   15.394
+11  1   5.049  4.195   1.589   1.957   27.843
+12  1   1.693  3.602   0.837   1.582   17.717
+13  1   1.187  2.679   0.459  18.837   20.253
+14  1   9.730  3.951   3.780   0.524   37.465
+15  1  14.325  4.300  10.781  36.863  101.334
+16  1   7.737  9.043   1.394   1.524   47.427
+17  1   7.538  4.538   2.565   5.109   35.944
+18  1  10.211  4.994   3.081   3.681   45.945
+19  1   8.697  3.005   1.378   3.338   46.890

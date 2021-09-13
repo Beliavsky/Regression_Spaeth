@@ -1,0 +1,58 @@
+#  x12.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#    R J Freund and P D Minton,
+#    Regression Methods,
+#    Dekker, 1979, page 70.
+#
+#  Discussion:
+#
+#    Data from various public electricity supply authorities was collected.
+#
+#    There are 16 rows of data.  The data include:
+#
+#      I,  the index;
+#      A0, 1;
+#      A1, the capital costs,
+#      A2, the labor costs,
+#      A3, the energy costs.
+#      B,  the output of electricity in millions of kilowatts;
+#
+#    We seek a model of the form:
+#
+#      B = A0 * X0 + A1 * X1 + A2 * X2 + A3 * X3.
+#
+6 columns
+16 rows
+Index
+One
+Capital Costs
+Labor Costs
+Energy Costs
+Electrical Output (millions of Kilowatts)
+ 1  1   98.288  0.386   13.219   1.270
+ 2  1  255.068  1.179   49.145   4.597
+ 3  1  208.904  0.532   18.005   1.985
+ 4  1  528.864  1.836   75.639   9.897
+ 5  1  307.419  1.136   52.234   5.907
+ 6  1  138.283  1.085    9.027   1.832
+ 7  1  418.883  2.390   41.676   4.865
+ 8  1  247.439  1.356   31.244   2.728
+ 9  1   19.478  0.115    1.739   0.125
+10  1  537.540  2.591  104.584   9.685
+11  1  605.507  2.789   82.296   8.727
+12  1  174.765  0.933   21.990   2,239
+13  1  946.766  4.004  125.351  10.077
+14  1  296.490  1.513   43.232   4.477
+15  1  645.690  2.540   75.581   7.037
+16  1  288.975  1.416   42.037   3.507
+
+
+
+

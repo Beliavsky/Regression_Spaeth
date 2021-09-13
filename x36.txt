@@ -1,0 +1,51 @@
+#  x36.txt
+#
+#  Reference:
+#
+#    F L Bauer,
+#    Elimination with Weighted Row Combinations for Solving Linear
+#    Equations and Least Squares Problems,
+#    Numerische Mathematik, Volume 7, 1965, pages 338-352.
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    An example with a badly conditioned matrix.
+#      A * X = B
+#    A has maximal rank.
+#    The exact solution by the method of least squares is 
+#    X = (1,2,-1,3,4).
+#
+#    There are 6 rows of data.  The data include:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      A4, column 4;
+#      A5, column 5;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4 + A5 * X5
+#
+7 columns
+6 rows
+Index
+A1
+A2
+A3
+A4
+A5
+B
+1  -74   80   18  -11  -4   51
+2   14  -69   21   28   0  -61
+3   66  -72   -5    7   1  -56
+4  -12   66  -30  -23   3   69 
+5    3    8   -7   -4   1   10
+6    4  -12    4    4   0  -12

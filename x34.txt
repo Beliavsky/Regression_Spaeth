@@ -1,0 +1,61 @@
+#  x34.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#    Helmut Spaeth,
+#    Algorithmen fuer multivariable Ausgleichsmodelle,
+#    Oldenbourg, 1974, page 62.
+#
+#  Discussion:
+#
+#    We have a linear system of the form A * X = B.
+#
+#    There are 20 rows of data.  The data includes:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      A4, column 4;
+#      A5, column 5;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4 + A5 * X5
+#
+7 columns
+20 rows
+Index
+A1
+A2
+A3
+A4
+A5
+B
+ 1   51   93  11  104   63  340
+ 2  102   47  23   97   57  370
+ 3   38   15   7   40   20  133
+ 4  138   50  25  140   81  383
+ 5  100  110  20  151   90  487
+ 6  270  183  57  332  201  993
+ 7   37   40   5   53   17  167
+ 8  111   63  17  153   67  401
+ 9   25  107   8   83   57  247
+10  107  108  37   44   80  360
+11  340  301  57  401  267  999
+12   93   94   9  153   95  341
+13   63   33  11   64   33  201
+14   77   37   8   73   37  221
+15  111   37  17   91   41  299
+16  144   53  25  163   71  423
+17   17   11   5   11   17   67
+18  161   80  31  177  100  573
+19  200  137  53  216  171  767
+20  160   70  20  130   83  467 
+

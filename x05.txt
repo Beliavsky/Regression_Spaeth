@@ -1,0 +1,80 @@
+#  x05.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991, page 305,
+#    ISBN 0-12-656460-4.
+#
+#    Helmut Spaeth,
+#    Clusterwise Linear Least Squares Versus Least Absolute Deviation
+#      Regression:
+#    A Numerical Comparions for a Case Study,
+#    In: G Gaul, M Schader, editors,
+#    Classification as a Tool of Research,
+#    North Holland, 1986.
+#
+#  Discussion:
+#
+#    Mail order houses issue supplementary lists with varying print runs
+#    and different numbers of pages.  Each supplementary list
+#    produces a certain number of orders.  
+#
+#    There are 38 rows of data.  The data columns include:
+#
+#      I,  the index;
+#      A0, 1;
+#      A1. the size of the print run, in thousands;
+#      A2, the number of pages in the list;
+#      B,  the number of orders, in thousands.
+#
+#    We seek a model of the form:
+#
+#      B = A0 * X0 + A1 * X1 + A2 * X2.
+#
+5 columns
+38 rows
+Index
+One
+Print Runs (x1000)
+Page numbers
+Orders (x1000)
+ 1  1  2800   22.   437.
+ 2  1  2670   14.   204.
+ 3  1  2800   37.   725.
+ 4  1  2784   15.   279.
+ 5  1  2800   38.   474.
+ 6  1  2620  172.  1587.
+ 7  1  2620  249.  2630.
+ 8  1  2470   84.   798.
+ 9  1  2620  242.  2509.
+10  1  2475  100.  1192.
+11  1  2620  114.   882.
+12  1  2620   37.   511.
+13  1  2448   96.   896.
+14  1  2648  116.  1297.
+15  1  2525   94.   857.
+16  1  1000   47.   388.
+17  1   980   48.   462.
+18  1  1000   15.    67.
+19  1  1112   45.   326.
+20  1  1000   23.   145.
+21  1  1000   44.   298.
+22  1  2188   23.   179.
+23  1  1028   47.   289.
+24  1  2200   31.   200.
+25  1  1000   48.   461.
+26  1   980   48.   223.
+27  1   728   47.   235.
+28  1  2510   26.   235.
+29  1  1500   58.   594.
+30  1  2500  128.  1800.
+31  1  2620  120.  1457.
+32  1  2528  120.  1710.
+33  1  2630  121.  1715.
+34  1  2550  122.  1615.
+35  1  1150   61.   196.
+36  1  1150   50.   309.
+37  1  1150   50.   263.
+38  1  1147   60.   332.

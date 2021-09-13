@@ -1,0 +1,51 @@
+#  x31.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#    N L Schryer,
+#    Certification of Algorithm 238:
+#    Chebyshev Solution to an Overdetermined Linear System,
+#    Collected Algorithms of the ACM.
+#
+#  Discussion:
+#
+#    A 10 by 3 linear system is considered, of the form
+#
+#    There are 10 rows of data.  Data includes:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3
+#
+#    A solution is sought which minimizes the maximum absolute deviation.
+#
+#    The correct solution is (-3,4,-1).
+#
+5 columns
+10 rows
+Index
+A1
+A2
+A3
+B
+ 1   11   -8    6  -68
+ 2    0  -15  -12  -54
+ 3  -13   -3   10   11
+ 4    7    8    2    3
+ 5   10   -7    9  -64
+ 6    0   -5    5  -19
+ 7    7   10    9   13
+ 8  -15    0   15   30
+ 9  -15    3  -15   72
+10    2    5   14   -5

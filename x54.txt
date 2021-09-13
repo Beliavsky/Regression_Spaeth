@@ -1,0 +1,33 @@
+#  x54.txt
+#
+#  Discussion:
+#
+#    This is simply a list of the total system size,
+#    and the files that describe the subsystems.
+#
+#    The first subsystem is a matrix A and right hand side B
+#    whose residual norm || A * X - B || is to be minimized.
+#
+#    The second subsystem is a matrix C and right hand side D
+#    which represent constraints, that is, it must be the
+#    case that C * X = D exactly.
+#
+#    The third subsystem is a matrix E and right hand side H
+#    which represent positivity constraints, that is, it must be the
+#    case that E * X >= H.
+#
+#    The rank of A is 3, the rank of C is 2.  The value of the
+#    objective function for the L1 problem is 31.34014.
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991, page 323,
+#    ISBN 0-12-656460-4.
+#
+7 columns
+13 rows
+3 subsystems
+x54_01.txt
+

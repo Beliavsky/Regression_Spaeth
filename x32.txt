@@ -1,0 +1,49 @@
+#  x32.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#    Helmut Spaeth,
+#    Algorithmen fuer multivariable Ausgleichsmodelle,
+#    Oldenbourge, 1974, pages 61-62.
+#
+#  Discussion:
+#
+#    A 13 by 3 linear system is considered.
+#
+#    There are 13 rows of data.  The data include:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3
+#
+5 columns
+13 rows
+Index
+A1
+A2
+A3
+B
+ 1  108  44  165  180
+ 2   47  42  179  225
+ 3   38  44  140  218
+ 4   92  27  139  151
+ 5   47  20  107  134
+ 6    8  13   77   92
+ 7   50  24  124  123
+ 8   56  25  141  142
+ 9   24   7   39   41
+10    4  26   98  134
+11    5  26  107  164
+12   53  23   65   90
+13  192  62  135  216

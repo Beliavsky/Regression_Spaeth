@@ -1,0 +1,38 @@
+#  x60.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    The linear system A * X = B.
+#    This matrix is square and nonsingular and well conditioned.
+#    The correct solution is (1,2,3).
+#
+#    There are 3 rows of data.  The data include:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3
+#
+5 columns
+3 rows
+Index
+A1
+A2
+A3
+B
+ 1  2  -1   0   0
+ 2 -1   2  -1   0
+ 3  0  -1   2   4
+

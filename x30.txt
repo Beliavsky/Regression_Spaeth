@@ -1,0 +1,38 @@
+#  x30.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    A 4 by 3 linear system is considered.
+#
+#    There are 4 rows of data.  The data includes:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3
+#
+#    The normal equations method is expected to fail on this case.
+#
+5 columns
+4 rows
+Index
+A1
+A2
+A3
+B
+ 1  1.000000  1.000000  1.000000  1.000000
+ 2  0.000001  0.000000  0.000000  0.000000
+ 3  0.000000  0.000001  0.000000  0.000000
+ 4  0.000000  0.000000  0.000001  0.000000

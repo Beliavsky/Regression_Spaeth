@@ -1,0 +1,71 @@
+#  x42.txt
+#
+#  Reference:
+#
+#    Y T Chen,
+#    Iterative Methods for Linear Least Squares Problems,
+#    Research Report CS-75-04,
+#    Departhment of Computer Science,
+#    University of Waterloo, Ontario, Canada,
+#    1975, page 191.
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    The linear system A * X = B.
+#    By the method of least squared deviations, the solution is
+#    X = (83.125, 2.625, 3.125, 3.75, -2.0, -4.375, 0.0, 1.5, -0.25 ).
+#
+#    There are 16 rows of data.  The data include:
+#
+#      I,  the index;
+#      A1, column 1;
+#      A2, column 2;
+#      A3, column 3;
+#      A4, column 4;
+#      A5, column 5;
+#      A6, column 6;
+#      A7, column 7;
+#      A8, column 8;
+#      A9, column 9;
+#      B,  the right hand side.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4 + A5 * X5
+#        + A6 * X6 + A7 * X7 + A8 * X8 + A9 * X9
+#
+11 columns
+16 rows
+Index
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
+A9
+B
+ 1  1  -1  -1  0  0   1   0   0   0  67
+ 2  1   1  -1  0  0  -1   0   0   0  83
+ 3  1  -1   1  0  0  -1   0   0   0  95
+ 4  1   1   1  0  0   1   0   0   0  89
+ 5  1  -1  -1  1  0   1  -1  -1   1  71
+ 6  1   1  -1  1  0  -1   1  -1  -1  85
+ 7  1  -1   1  1  0  -1  -1   1  -1  98
+ 8  1   1   1  1  0   1   1   1   1  92
+ 9  1  -1  -1  0  1   1   0   0   0  77
+10  1   1  -1  0  1  -1   0   0   0  89
+11  1  -1   1  0  1  -1   0   0   0  79
+12  1   1   1  0  1   1   0   0   0  78
+13  1  -1  -1  1  1   1  -1  -1   1  77
+14  1   1  -1  1  1  -1   1  -1  -1  92
+15  1  -1   1  1  1  -1  -1   1  -1  87
+16  1   1   1  1  1   1   1   1   1  85
+

@@ -1,0 +1,26 @@
+#  x61_02.txt
+#
+#  Reference:
+#
+#    I Barrodale and F Roberts,
+#    Algorithm 552:
+#    Solution of the Constrained L1 Approximation Problem,
+#    ACM Transactions on Mathematical Software,
+#    Volume 6, Number 2, pages 231-235, 1980.
+#
+#  Discussion:
+#
+#    Linear system C * X = D to be satisfied exactly.
+#
+7 columns
+3 rows
+Index
+C1
+C2
+C3
+C4
+C5
+D
+1  0  4  5   9  -1  5
+2  3  2  7  12  -2  1
+3  3  6 12  21  -3  6

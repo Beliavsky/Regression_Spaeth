@@ -1,0 +1,43 @@
+#  x29.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#    Helmut Spaeth,
+#    Algorithmen fuer multivariable Ausgleichsmodelle,
+#    Oldenbourge, 1974, pages 60-61.
+#
+#  Discussion:
+#
+#    We are given nine points in the plane.
+#
+#    There are 9 rows of data.  The data includes:
+#
+#      I,  the index;
+#      A0, 1;
+#      A1, the X coordinates;
+#      B,  the Y coordinates.
+#
+#    We seek a model of the form:
+#
+#      B = A0 * X0 + A1 * X1
+#
+4 columns
+9 rows
+Index
+One
+X value
+Y value
+ 1  1  1  5
+ 2  1  2  2
+ 3  1  3  3
+ 4  1  4  6
+ 5  1  5  1
+ 6  1  6  2
+ 7  1  7  7
+ 8  1  8  5
+ 9  1  9  1

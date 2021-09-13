@@ -1,0 +1,25 @@
+#  x61_03.txt
+#
+#  Reference:
+#
+#    I Barrodale and F Roberts,
+#    Algorithm 552:
+#    Solution of the Constrained L1 Approximation Problem,
+#    ACM Transactions on Mathematical Software,
+#    Volume 6, Number 2, pages 231-235, 1980.
+#
+#  Discussion:
+#
+#    Linear inequality constraints E * X >= H.
+#
+7 columns
+2 rows
+Index
+E1
+E2
+E3
+E4
+E5
+H
+1  -5 -3 -6  -9 -3 -5
+2  -6 -2 -4 -12 -4 -6

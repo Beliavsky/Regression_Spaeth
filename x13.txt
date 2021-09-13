@@ -1,0 +1,61 @@
+#  x13.txt
+#
+#  Reference:
+#
+#    S Chatterjee and B Price,
+#    Regression Analysis by Example,
+#    Wiley, 1977, page 152.
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991,
+#    ISBN 0-12-656460-4.
+#
+#  Discussion:
+#
+#    For the years 1949 to 1966, the international production,
+#    the stock, the domestic consumption and the level of
+#    imports were noted in millions of French francs.
+#
+#    There are 18 rows of data.  The data include:
+#
+#      I,  the index;
+#      Y,  the year;
+#      A0, 1;
+#      A1, the international production;
+#      A2, the stock;
+#      A3, the domestic consumption;
+#      B,  the levels of imports.
+#
+#    We seek a model of the form:
+#
+#      B = A0 * X0 + A1 * X1 + A2 * X2 + A3 * X3.
+#
+7 columns
+18 rows
+Index
+Year
+One
+International Production
+Stock
+Domestic Consumption
+Imports
+ 1  1949  1  149.3  4.2  108.1  15.9
+ 2  1950  1  161.2  4.1  114.8  16.4
+ 3  1951  1  171.5  3.1  123.2  19.0
+ 4  1952  1  175.5  3.1  126.9  19.1
+ 5  1953  1  180.8  1.1  132.1  18.8
+ 6  1954  1  190.7  2.2  137.7  20.4
+ 7  1955  1  202.1  2.1  146.0  22.7
+ 8  1956  1  212.4  5.6  154.1  26.5
+ 9  1957  1  226.1  5.0  162.3  28.1
+10  1958  1  231.9  5.1  164.3  27.6
+11  1959  1  239.0  0.7  167.6  26.3
+12  1960  1  258.0  5.6  176.8  31.1
+13  1961  1  269.8  3.9  186.6  33.3
+14  1962  1  288.4  3.1  199.7  37.0
+15  1963  1  304.5  4.6  213.9  43.3
+16  1964  1  323.4  7.0  223.8  49.0
+17  1965  1  336.8  1.2  232.0  50.3
+18  1966  1  353.9  4.5  242.9  56.6
+
