@@ -1,6 +1,6 @@
 ### Regression Spaeth
 
-Code and data files from [John Burkardt](https://people.math.sc.edu/Burkardt/f_src/regression/regression.html) with minor updates.
+Code and data files from [John Burkardt](https://people.math.sc.edu/Burkardt/f_src/regression/regression.html) with minor updates. Compile with gfortran regression.f90 regression_test.f90
 
 "REGRESSION is a FORTRAN90 library which handles problems in linear regression.
 
